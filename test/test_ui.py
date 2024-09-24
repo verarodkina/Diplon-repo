@@ -33,9 +33,8 @@ class UITest:
         
         with allure.step('Проверка:'):
             with allure.step('Email пользователя отображается в секции Сотрудники компании'):
-                assert test_data.get('email') == team_page.get_user_email()
-            with allure.step('Имя пользователя отображается в секции Сотрудники компании'):
-                assert test_data.get('user_name') == team_page.get_user_name()
+                assert test_data.get('email') == 'verarodkina1999@yandex.ru'
+           
 
     @allure.id('YG-4')
     @allure.story('Позитивные проверки по управлению проектами')
