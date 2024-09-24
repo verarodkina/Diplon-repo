@@ -69,18 +69,3 @@ pip3 install requests
 
 
 
-Запуск тестов:
-
-pytest | python3 -m pytest (запуск тестов)
-
-python3 -m pytest -s (вывод в консоль print)
-
-python3 -m pytest -v (запуск тестов с подробным выводом в консоль)
-
-python3 -m pytest filename.py (запуск тестов из файла)
-
-python3 -m pytest filename.py::Class::function: (запуск тестов по идентификатрам узлов)
-
-python3 -m pytest --alluredir allure_files (запуск тестов и сохранение отчета о результатах тестирования)
-
-sh run.sh (запуск тестов с сохранением истории прогонов и генерация отчета с результатами тестирования)
